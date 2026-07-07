@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct HTTPHeader: Hashable, Sendable {
+public struct HTTPHeader: Hashable, Sendable, Codable {
     public let name: String
     public let value: String
     
